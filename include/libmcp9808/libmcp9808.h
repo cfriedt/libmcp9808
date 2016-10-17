@@ -41,7 +41,7 @@ __BEGIN_DECLS
 #define I2C_ADDR_MCP9808_MIN 0x18
 #define I2C_ADDR_MCP9808_MAX 0x1f
 
-#include "../libmcp9808/mcp9808-regs.h"
+#include <libmcp9808/mcp9808-regs.h>
 
 typedef enum {
 	MCP9808_ALERT_OUTPUT_MODE_COMPARATOR,

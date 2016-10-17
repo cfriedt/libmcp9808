@@ -78,7 +78,7 @@ int main( int argc, char *argv[] ) {
 				}
 
 				if ( tambient.value.vector.ta_lt_tlower ) {
-					cout << "tambient ( " << Mcp9808::temperatureToDegreesCelcius( tambient ) << " ) > tupper ( " << Mcp9808::temperatureToDegreesCelcius( tlower ) << " )" << endl;
+					cout << "tambient ( " << Mcp9808::temperatureToDegreesCelcius( tambient ) << " ) < tlower ( " << Mcp9808::temperatureToDegreesCelcius( tlower ) << " )" << endl;
 				}
 			}
 
